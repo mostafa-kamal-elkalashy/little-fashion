@@ -1,0 +1,150 @@
+header{
+    box-sizing: border-box;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+header .container .row{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+header .container .row div{
+    width: 50%;
+    text-align: center;
+}
+header .container .row input{
+    display: block;
+    margin: auto;
+}
+header .container .row button{
+    display: block;
+    margin: auto;
+}
+header .container .row div h1{
+    font-size: 62px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 50px;
+}
+header .container .row input{
+    width: 80%;
+    margin-bottom: 30px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+header .container .row button{
+    width: 80%;
+    margin-bottom: 50px;
+    height: 60px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+header .container .row button:hover{
+    background-color:#ff4400;
+    border: none;
+}
+header .container .row p a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+header .container .row p a:hover{
+    color: #ff4400;
+}
+
+@media (max-width:990px) {
+    header .container .row div{
+        width: 100%;
+    }
+}
+
+/* -----------end the section---------- */
+footer{
+    background-color: #000000;
+    padding: 100px 0;
+}
+footer .container .row{
+    justify-content: space-between;
+}
+footer .container .row .logo h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+footer .container .row .logo h3 span{
+    color: #717275;
+}
+footer .container .row .logo h3 span:hover{
+    color:#ff4400 ;
+}
+footer .container .row .logo p{
+    color: #717275;
+}
+footer .container .row .logo p span{
+    color: #ff4400;
+}
+footer .container .row .sitemap h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .sitemap a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .sitemap a:hover{
+    color: white;
+}footer .container .row .bag-link{
+    padding-top: 70px;
+}
+footer .container .row .bag-link a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .bag-link a:hover{
+    color: white;
+}
+footer .container .row .social h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .social a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+    display: inline;
+}
+footer .container .row .social a i{
+    padding: 0 5px;
+}
+footer .container .row .social a i:hover{
+    color: white;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+
+
+@media (max-width:770px) {
+    footer .container .row div{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:550px) {
+    footer .container .row div{
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+/* ent the brodacts html  */

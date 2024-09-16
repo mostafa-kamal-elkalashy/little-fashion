@@ -1,0 +1,234 @@
+.collapse{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-nav {
+    position: fixed;
+    z-index: 3434;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+.container-fluid{
+    padding: 10px 0;
+}
+.sec-nav nav .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+.sec-nav nav .navbar-brand span{
+    color: #ff4400;
+}
+.sec-nav nav .navbar-brand:hover{
+    color:#ff4400 ;
+}
+.sec-nav  .pags{
+    font-size: 16px;
+   width: 40%;
+}
+.sec-nav .pags ul li{
+    padding: 0 10px 0 10px;
+}
+.sec-nav .pags ul li:hover{
+    border-bottom: 2px solid #717275;
+}
+.sec-nav .pags ul li a{
+    color: #717275;
+    font-weight: bold;
+}
+.sec-nav .pags ul li a:hover{
+    color: #ff4400;
+    
+}
+.sec-nav .pags ul li .active{
+    color: #ff4400;
+
+}
+.sec-nav .cont{
+    margin-right: -100px;
+}
+.sec-nav .cont a i{
+    font-size: 20px;
+    color: #717275;
+}
+.sec-nav .cont a{
+    padding: 0 10px;
+}
+.sec-nav .cont a i:hover{
+    color: #ff4400;
+}
+
+/* ------------------end navbar------------------- */
+
+
+header{
+    background-color: #f0f8ff;
+    padding:150px 0 100px 0;
+}
+header .container h1{
+    color: #ff4400;
+    font-size: 62px;
+    font-weight: bold;
+}
+header .container h2{
+    color: black;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+/* -----------------end the section header------- */
+
+.sec-one{
+    padding: 100px 0;
+}
+.sec-one .container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 50px;
+}
+.sec-one .container .accordion{
+    width: 60%;
+    
+}
+.sec-one .container .accordion .accordion-body{
+    display: block;
+    color: #717275;
+    
+}
+.sec-one .container .accordion button{
+    font-size: 22px;
+    padding: 20px 20px;
+}
+@media (max-width:991px) {
+    .sec-one .container .accordion{
+        width: 100%;
+        
+    }
+}
+
+/* -------------------end section one--------------------- */
+
+.sec-two{
+    padding:0 0 100px 0;
+}
+
+.sec-two .container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 50px;
+}
+.sec-two .container h1 span{
+    font-size: 42px;
+    font-weight: bold;
+    color: #ff4400;
+    padding-bottom: 50px;
+}
+.sec-two .container .accordion{
+    width: 60%;
+    
+}
+.sec-two .container .accordion .accordion-body{
+    display: block;
+    color: #717275;
+    
+}
+.sec-two .container .accordion button{
+    font-size: 22px;
+    padding: 20px 20px;
+}
+@media (max-width:991px) {
+    .sec-two .container .accordion{
+        width: 100%;
+        
+    }
+}
+
+
+/* ----------------end section two ---------------*/
+
+footer{
+    background-color: #000000;
+    padding: 100px 0;
+}
+footer .container .row{
+    justify-content: space-between;
+}
+footer .container .row .logo h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+footer .container .row .logo h3 span{
+    color: #717275;
+}
+footer .container .row .logo h3 span:hover{
+    color:#ff4400 ;
+}
+footer .container .row .logo p{
+    color: #717275;
+}
+footer .container .row .logo p span{
+    color: #ff4400;
+}
+footer .container .row .sitemap h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .sitemap a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .sitemap a:hover{
+    color: white;
+}footer .container .row .bag-link{
+    padding-top: 70px;
+}
+footer .container .row .bag-link a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .bag-link a:hover{
+    color: white;
+}
+footer .container .row .social h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .social a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+    display: inline;
+}
+footer .container .row .social a i{
+    padding: 0 5px;
+}
+footer .container .row .social a i:hover{
+    color: white;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+
+
+@media (max-width:770px) {
+    footer .container .row div{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:550px) {
+    footer .container .row div{
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+/* ent the brodacts html  */

@@ -1,0 +1,415 @@
+.collapse{
+    display: flex;
+    justify-content: space-around;
+}
+.sec-nav {
+    position: fixed;
+    z-index: 3434;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+.container-fluid{
+    padding: 10px 0;
+}
+.sec-nav nav .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+.sec-nav nav .navbar-brand span{
+    color: #ff4400;
+}
+.sec-nav nav .navbar-brand:hover{
+    color:#ff4400 ;
+}
+.sec-nav  .pags{
+    font-size: 16px;
+   width: 40%;
+}
+.sec-nav .pags ul li{
+    padding: 0 10px 0 10px;
+}
+.sec-nav .pags ul li:hover{
+    border-bottom: 2px solid #717275;
+}
+.sec-nav .pags ul li a{
+    color: #717275;
+    font-weight: bold;
+}
+.sec-nav .pags ul li a:hover{
+    color: #ff4400;
+    
+}
+.sec-nav .pags ul li .active{
+    color: #ff4400;
+
+}
+.sec-nav .cont{
+    margin-right: -100px;
+}
+.sec-nav .cont a i{
+    font-size: 20px;
+    color: #717275;
+}
+.sec-nav .cont a{
+    padding: 0 10px;
+}
+.sec-nav .cont a i:hover{
+    color: #ff4400;
+}
+
+
+/* --------end navbar---------------- */
+
+#carouselExampleCaptions{
+
+}.sec-one{
+    padding-top: 90px;
+}
+.sec-one .carousel-item{
+    height: 100vh;
+}
+.sec-one img{
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+}
+.sec-one .carousel-item h1{
+    font-size: 60px;
+}
+.sec-one .carousel-item .carousel-caption{
+   
+}
+@media (max-width:770px) {
+    .sec-one .carousel-item{
+        height: 80vh;
+    }
+}
+
+@media (max-width:660px) {
+    .sec-one .carousel-item{
+        height: 60vh;
+    }
+}
+@media (max-width:550px) {
+    .sec-one .carousel-item{
+        height: 50vh;
+    }
+}
+@media (max-width:450px) {
+    .sec-one .carousel-item{
+        height: 45vh;
+    }
+}
+
+/* -----------end frist section-------------- */
+
+
+.sec-two {
+    box-sizing: border-box;
+    padding-top: 100px
+}
+.sec-two .container .row .d-flex{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.sec-two .container .row .nav{
+    padding-top: 70px;
+    width: auto;
+}
+.sec-two .container h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    padding-bottom: 70px;
+}
+.sec-two .container h1 span{
+    color: #ff4400;
+}
+.sec-two .container .nav button{
+    background-color: white;
+    border: none;
+    border-left: 1px solid #717275;
+    color: #717275;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0%;
+}
+.sec-two .container .nav button:hover{
+    background-color: white;
+    border: none;
+    border-left: 1px solid #ff4400;
+    color: #ff4400;
+    
+}
+
+.sec-two .container .tab-content .row{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-two .container .tab-content .row div{
+    width: 50%;
+}
+.sec-two .container .tab-content .row img{
+    background-size: cover;
+    background-position:center center;
+    width: 100%;
+}
+.sec-two .container .tab-content .row .dis{
+    padding-top: 30px;
+}
+.sec-two .container .tab-content .row .dis h3{
+   font-size: 30px;
+}
+.sec-two .container .tab-content .row .dis h3 span{
+    color:#ff4400 ;
+}
+.sec-two .container .tab-content .row .dis a{
+    color: #717275;
+    margin-top: 100px;
+    text-decoration: none;
+}
+.sec-two .container .tab-content .row .dis p{
+    padding-bottom: 20px;
+}
+.sec-two .container .tab-content .row .dis a:hover{
+    color: #ff4400;
+}
+.sec-two .container .tab-pane .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width:1200px) {
+    
+    .sec-two .container .row .d-flex .links-nav {
+        width: 50%;
+        
+    }
+    .sec-two .container .row #v-pills-tabContent .tab-pane .row .img{
+        width: 100%;
+    }
+    .sec-two .container .row #v-pills-tabContent .tab-pane .row .dis{
+        width: 100%;
+    }
+    
+}
+
+/* ---------------------------------- */
+
+
+
+
+.sec-three {
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.sec-three .container{
+    width: 100%;
+}
+.sec-three .row{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(221, 232, 240, 0.801);
+}
+.sec-three .row .img{
+    width: 50%;
+}
+.sec-three .row .dis{
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 120px;
+    background-color: rgba(221, 232, 240, 0.801);
+    padding-bottom: 50px;
+}
+.sec-three .row .img img{
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+.sec-three .row .dis h3{
+    font-weight: bold;
+    font-size: 50px;
+    color:black;
+    padding-bottom: 20px;
+    
+
+}
+.sec-three .row .dis h3 span{
+    color: #ff4400;
+}
+.sec-three .row .dis a{
+    text-decoration: none;
+    padding-bottom: 20px;
+    color:black;
+}
+.sec-three .row .dis a:hover{
+    color: #ff4400;
+}
+
+
+
+@media (max-width:990px) {
+    .sec-three .row .img{
+        width: 100%;
+    } 
+    .sec-three .row .dis{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .sec-three .row .dis h3{
+        width: 100%;
+    }
+}
+
+/* ---------------end section three */
+
+.sec-four .container{
+    padding-top: 100px;
+}
+.sec-four .container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sec-four .container .row .img img{
+   background-size: cover;
+   background-position: center center;
+   width: 100%;
+}
+.sec-four .container .row .pro-1 .diss{
+    padding-top: 20px !important;
+    padding: 0 5px;
+}
+.sec-four .container .row .pro-1 .diss a{
+    text-decoration: none;
+    color: black;
+}
+.sec-four .container .row .pro-1 .diss a:hover{
+    color: #ff4400;
+}
+.sec-four .container .row .pro-1  p{
+    color: #717275;
+}
+.sec-four .container .row .pro-1{
+    transition: all 0.5s;
+}
+.sec-four .container .row .pro-1:hover{
+    box-shadow: 5px 5px 10px #aaaaaa ;
+}
+.sec-four .container .link {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.sec-four .container .link a{
+    text-decoration: none;
+    color: #717275;
+    border-bottom: 2px solid #717275;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.sec-four .container .link a:hover{
+    color: #ff4400;
+}
+
+
+
+@media (max-width:990px) {
+    .sec-four .container .row .pro-1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* ---------------------end the sction four------------- */
+footer{
+    background-color: #000000;
+    padding: 100px 0;
+}
+footer .container .row{
+    justify-content: space-between;
+}
+footer .container .row .logo h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+footer .container .row .logo h3 span{
+    color: #717275;
+}
+footer .container .row .logo h3 span:hover{
+    color:#ff4400 ;
+}
+footer .container .row .logo p{
+    color: #717275;
+}
+footer .container .row .logo p span{
+    color: #ff4400;
+}
+footer .container .row .sitemap h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .sitemap a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .sitemap a:hover{
+    color: white;
+}footer .container .row .bag-link{
+    padding-top: 70px;
+}
+footer .container .row .bag-link a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+}
+footer .container .row .bag-link a:hover{
+    color: white;
+}
+footer .container .row .social h3{
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+}
+footer .container .row .social a{
+    text-decoration: none;
+    color: #717275;
+    display: block;
+    display: inline;
+}
+footer .container .row .social a i{
+    padding: 0 5px;
+}
+footer .container .row .social a i:hover{
+    color: white;
+}
+footer h3{
+    padding-bottom: 20px;
+}
+
+
+@media (max-width:770px) {
+    footer .container .row div{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:550px) {
+    footer .container .row div{
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+/* ------------------end the footer ------------------ */
